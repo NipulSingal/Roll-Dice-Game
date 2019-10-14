@@ -13,7 +13,7 @@ The player can choose to 'HOLD', which means that his ROUND score gets added to 
 The first player who reaches 100 points on GLOBAL score wins the game.
 
 
-Visit the link and enjoy my game.
+Visit the link and enjoy this game.
 
 # Link for the game:
 
