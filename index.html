@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,600"type="text/css">
     <link rel="stylesheet" href="https://code.iconicframework.com/ionicons/2.0.1/css/ionicons.min.css"type="text/css">
     <link rel="stylesheet" href="style.css"type="text/css">
-    <title>Pig Game</title>
+    <title>Roll Dice Game</title>
 </head>
 <body>
     <div class="wrapper clearfix">
@@ -28,10 +28,34 @@
                 <div class="player-current-score" id="current-1">0</div>
             </div>
         </div>
+        
         <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+        <button id="myBtn"><i class="ion-ios-plus-outline"></i>Rules</button>    
         <button class="btn-roll"><i class="ion-ios-loop"></i>Roll Dice</button>
         <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
         
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Rules</h2>
+                </div>
+                <div class="modal-body">
+                <ol>
+                    <li class="modal-item"><h4>The game has 2 players,playing in rounds</h4></li>
+                    <li class="modal-item"><h4>In each turn, a player rolls a dice as many times as he wishes. Each result get added to his ROUND score</h4></li>
+                    <li class="modal-item"><h4>BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn</h4></li>
+                    <li class="modal-item"><h4>The player can choose to 'HOLD', which means that his ROUND score gets added to his GLOBAL score. After that, it's the next player's turn</h4></li>
+                    <li class="modal-item"><h4>The first player who reaches 100 points on GLOBAL score wins the game.</h4></li>
+                    <p class="modal-item"><h5>Visit the link and enjoy my game.</h5></p>
+                </ol>
+                </div>
+            </div>
+          
+        </div>
+
         <img src="dice-5.png" alt="Dice" class="dice">
     </div>
 
